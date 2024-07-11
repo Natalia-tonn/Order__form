@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+
+}
 .order__form{
     width: 300px;
     border: 1px solid rgb(147, 146, 146);
@@ -27,4 +32,24 @@
     border: 1px solid rgb(147, 146, 146);
    
 }
-
+.new-btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(107, 151, 195);
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.new-message{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(61, 219, 166);
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+   align-items: center;
+   padding-left: 30px;
+}
